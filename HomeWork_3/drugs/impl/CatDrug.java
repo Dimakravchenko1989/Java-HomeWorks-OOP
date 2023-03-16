@@ -1,12 +1,12 @@
 package HomeWork_3.drugs.impl;
 
-import java.util.List;
-
 import HomeWork_3.drugs.Component;
 import HomeWork_3.drugs.Drug;
 
+import java.util.List;
+
 public class CatDrug extends Drug {
-    public CatDrug(List<Component> component) {
-        super(component);
+    public CatDrug(List<Component> components) {
+        super(components);
     }
 }

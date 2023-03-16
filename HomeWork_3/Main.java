@@ -29,15 +29,15 @@ public class Main {
         // Создаем список компонентов
         List<Component> componentsCat1 = List.of(
                 new Azitron("Азитрон", "2", 6),
-                new Water("Вода", "10", 6));
+                new Azitron("Азитрон", "10", 6));
         List<Component> componentsCat2 = List.of(
-                new Azitron("Азитрон","4",7),
+                new Azitron("Азитрон","4",10),
                 new Penicillin("Пенициллин", "16", 7));
         List<Component> componentsCat3 = List.of(
                 new Water("Вода", "20", 10),
                 new Azitron("Азитрон", "10", 10));
         List<Component> componentsCat4 = List.of(
-                new Water("Вода", "20", 1),
+                new Water("Вода", "20", 6),
                 new Penicillin("Пенициллин", "18", 1));
         List<Component> componentsCat5 = List.of(
                 new Water("Вода", "10", 12),
