@@ -1,16 +1,15 @@
-
 package HomeWork_4;
 
 import HomeWork_4.gb.list.GBLinkedList;
 
-public class Main35 {
+public class Main {
     public static void main(String[] args) {
         GBLinkedList<Integer> gblist = new GBLinkedList<>();
         gblist.add(2)
                 .add(3)
                 .add(4)
                 .add(5)
-                .add(1,6);
+                .add(1,6); // добавляем элемент по индексу
         System.out.println(gblist);
         
         gblist.addFirst(1); // добавление в начало списка
@@ -29,7 +28,7 @@ public class Main35 {
         gblist.update(1, 10); // замена элемента списка по индексу
         System.out.println(gblist);
 
-        System.out.println("Size of the current list: " + gblist.size());
-        System.out.println("Element with index 0: " + gblist.get(0));
+        System.out.println("Размер списка: " + gblist.size());
+        System.out.println("Элемент с индексом 0: " + gblist.get(0));
     }
 }
