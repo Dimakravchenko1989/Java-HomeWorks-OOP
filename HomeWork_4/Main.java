@@ -9,25 +9,26 @@ public class Main {
                 .add(3)
                 .add(4)
                 .add(5)
-                .add(1,6); // добавляем элемент по индексу
+                .add(1,6); // РґРѕР±Р°РІР»СЏРµРј СЌР»РµРјРµРЅС‚ РїРѕ РёРЅРґРµРєСЃСѓ // 
         System.out.println(gblist);
         
-        gblist.addFirst(1); // добавление в начало списка
-        gblist.addLast(6); // добавление в конец списка
+        gblist.addFirst(1); // РґРѕР±Р°РІР»РµРЅРёРµ РІ РЅР°С‡Р°Р»Рѕ СЃРїРёСЃРєР°
+        gblist.addLast(6); // РґРѕР±Р°РІР»РµРЅРёРµ РІ РєРѕРЅРµС† СЃРїРёСЃРєР°
         System.out.println(gblist);
 
-        gblist.remove(2); // удаление элемента из списка по индексу
+        gblist.remove(2); // СѓРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° РёР· СЃРїРёСЃРєР° РїРѕ РёРЅРґРµРєСЃСѓ
         System.out.println(gblist);
 
-        gblist.removeFirst(); // удаление первого элемента списка
+        gblist.removeFirst(); // СѓРґР°Р»РµРЅРёРµ РїРµСЂРІРѕРіРѕ СЌР»РµРјРµРЅС‚Р° СЃРїРёСЃРєР°
         System.out.println(gblist);
 
-        gblist.removeLast(); // удаление последнего элемента списка
+        gblist.removeLast(); // СѓРґР°Р»РµРЅРёРµ РїРѕСЃР»РµРґРЅРµРіРѕ СЌР»РµРјРµРЅС‚Р° СЃРїРёСЃРєР°
         System.out.println(gblist);
 
-        gblist.update(1, 10); // замена элемента списка по индексу
+        gblist.update(1, 10); // Р·Р°РјРµРЅР° СЌР»РµРјРµРЅС‚Р° СЃРїРёСЃРєР° РїРѕ РёРЅРґРµРєСЃСѓ
         System.out.println(gblist);
-        System.out.println("Размер списка: " + gblist.size());
-        System.out.println("Элемент с индексом 0: " + gblist.get(0));
+        System.out.println("Р Р°Р·РјРµСЂ СЃРїРёСЃРєР°: " + gblist.size());
+        System.out.println("Р­Р»РµРјРµРЅС‚ СЃ РёРЅРґРµРєСЃРѕРј 0: " + gblist.get(0));
     }
 }
+
