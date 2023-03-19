@@ -27,6 +27,7 @@ public class Main {
 
         gblist.update(1, 10); // замена элемента списка по индексу
         System.out.println(gblist);
+        
         System.out.println("Размер списка: " + gblist.size());
         System.out.println("Элемент с индексом 0: " + gblist.get(0));
     }
