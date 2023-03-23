@@ -53,7 +53,7 @@ public class UserRepository implements GBRepository<User, Long> {
         return Optional.empty();
     }
 
-    @Override
+    @Override // заменить существующий контакт
     public Optional<User> update(Long id, User update) {
         try {
             List<User> users = findAll();
@@ -72,7 +72,7 @@ public class UserRepository implements GBRepository<User, Long> {
         }
     }
 
-    @Override
+    @Override // удалить контакт из списка
     public boolean delete(Long id) {
         List<User> users = findAll();
         for (User user: users) {
