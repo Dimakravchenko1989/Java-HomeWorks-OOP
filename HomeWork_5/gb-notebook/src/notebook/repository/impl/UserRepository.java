@@ -18,7 +18,7 @@ public class UserRepository implements GBRepository<User, Long> {
     }
 
     @Override
-    public List<User> findAll() { // вывести все контакты
+    public List<User> findAll() { // РІС‹РІРµСЃС‚Рё РІСЃРµ РєРѕРЅС‚Р°РєС‚С‹
         List<String> lines = operation.readAll();
         List<User> users = new ArrayList<>();
         for (String line : lines) {
@@ -28,7 +28,7 @@ public class UserRepository implements GBRepository<User, Long> {
     }
 
     @Override
-    public User create(User user) { // создать новый контакт
+    public User create(User user) { // СЃРѕР·РґР°С‚СЊ РЅРѕРІС‹Р№ РєРѕРЅС‚Р°РєС‚
         List<User> users = findAll();
         long max = 0L;
         for (User u : users) {

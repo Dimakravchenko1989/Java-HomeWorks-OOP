@@ -9,7 +9,7 @@ public class UserMapper implements Mapper<User, String> {
     public UserMapper(String format) {
         this.format = format;
     }
-    // Можем менять формат сохранения записей
+    // РњРѕР¶РµРј РјРµРЅСЏС‚СЊ С„РѕСЂРјР°С‚ СЃРѕС…СЂР°РЅРµРЅРёСЏ Р·Р°РїРёСЃРµР№
     public UserMapper() {
         this(";");
     }

@@ -56,7 +56,7 @@ public class UserView {
         }
 
 
-    // Метод получения данных контакта
+    // РњРµС‚РѕРґ РїРѕР»СѓС‡РµРЅРёСЏ РґР°РЅРЅС‹С… РєРѕРЅС‚Р°РєС‚Р°
     private User userContact() {
         String firstName = prompt("Name: ");
         String lastName = prompt("Last name: ");
