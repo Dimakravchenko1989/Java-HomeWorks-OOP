@@ -49,7 +49,7 @@ public class User {
         this.phone = phone;
     }
 
-    @Override  // Изменил формат вывода информации в консоль
+    @Override  // РР·РјРµРЅРёР» С„РѕСЂРјР°С‚ РІС‹РІРѕРґР° РёРЅС„РѕСЂРјР°С†РёРё РІ РєРѕРЅСЃРѕР»СЊ
     public String toString() {
         return String.format("User id: %s\nName: %s\nLast name: %s\nPhone number: %s\n--------------", 
         id, firstName, lastName, phone);
